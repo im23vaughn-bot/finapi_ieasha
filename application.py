@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import time
+=======
+import time 
+>>>>>>> c78c9d1371c32d92aef4d122c306568b2fe504fa
 from flask import Flask, request, jsonify
 import os
 from azure.storage.blob import BlobServiceClient
@@ -113,4 +117,7 @@ def list_csv_reports():
 def slow_endpoint():
     time.sleep(5)
     return "This was a slow response after 5 seconds"
+<<<<<<< HEAD
 
+=======
+>>>>>>> c78c9d1371c32d92aef4d122c306568b2fe504fa
